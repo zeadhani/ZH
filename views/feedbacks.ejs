@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("./partials/head.ejs") %>
+
+  <body>
+    <center><h1>feedbacks</h1></center>
+
+    <div class="texts">
+      <h2>Feedbacks</h2>
+
+      <% if (blogs.length > 0) { %> <% blogs.forEach(blog => { %>
+      <a class="single" href="/blogs/<%= blog._id %>">
+        <h3 class="title"><%= blog.title %></h3>
+        <h4 class="snippet"><%= blog.snippet %></h4>
+      </a>
+      <% }) %> <% } else { %>
+      <h5>There are no feedbacks to display...</h5>
+      <% } %>
+    </div>
+    <p><%- include("./partials/nav.ejs") %></p>
+    <%- include("./partials/footer.ejs") %>
+  </body>
+</html>

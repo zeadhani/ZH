@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
+body {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+  font-family: "Noto Serif", serif;
+  max-width: 1200px;
+  background-color: black;
+}
+.texts h2 {
+  color: white;
+}
+.texts h3 {
+  color: white;
+}
+
+.texts h4 {
+  color: #777;
+}
+
+.texts h5 {
+  color: red;
+}
+
+button {
+  background-color: red;
+  width: 100%;
+  color: white;
+  padding: 15px;
+  margin: 10px 0px;
+  border: none;
+  cursor: pointer;
+}
+form {
+  border: 2px solid black;
+  border: red;
+  margin-bottom: 30px;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+button:hover {
+  opacity: 0.7;
+}
+
+.container {
+  padding: 40px;
+  background-color: white;
+}
+
+.container textarea {
+  display: block;
+  height: 200px;
+  width: 400px;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+h1 {
+  color: white;
+  font-family: Georgia, sans-serif;
+  font-size: 5em;
+  letter-spacing: -2px;
+  text-decoration: underline;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+  text-transform: uppercase;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+nav li {
+  list-style-type: none;
+  margin-left: 20px;
+}
+nav h1 {
+  font-size: 3em;
+}
+nav p,
+nav a {
+  color: white;
+  font-weight: 300;
+}
+footer {
+  color: #777;
+  text-align: center;
+  margin: 80px auto 20px;
+}
+content {
+  margin-left: 20px;
+  color: white;
+}
+.texts a {
+  display: block;
+  margin: 40px 0;
+  padding-left: 30px;
+  border-left: 6px solid crimson;
+}
+.texts a:hover h3 {
+  color: crimson;
+}
+.delete {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  left: 1000px;
+  border-radius: 50%;
+  padding: 8px;
+}
+.delete:hover {
+  cursor: pointer;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+}
+/* index styles */
+/* details styles */
+/* create styles */
+/* .create-blog form {
+  max-width: 100%;
+  border: 2px solid black;
+  background-color: white;
+  margin: 0 auto;
+}
+.create-blog input,
+.create-blog textarea {
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+.create-blog label {
+  display: block;
+  color: BLACK;
+  margin-top: 24px;
+}
+.create-blog textarea {
+  display: block;
+  height: 200px;
+  width: 400px;
+  margin: 10px 0;
+  padding: 8px;
+}
+.create-blog button {
+  background-color: red;
+  width: 100%;
+  color: white;
+  padding: 15px;
+  margin: 10px 0px;
+  border: none;
+  cursor: pointer;
+} */

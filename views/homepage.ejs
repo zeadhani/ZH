@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("./partials/head.ejs") %>
+
+  <body>
+    <center><h1>Home page</h1></center>
+    <p>
+      <div class="container">
+        <form action="/blogs" method="POST">
+          <label for="title">username:</label>
+          <input type="text" id="title" name="title" required>
+          <label for="snippet">gender:</label>
+          <input type="text" id="snippet" name="snippet" required>
+          <label for="body">your feedback:</label>
+          <textarea id="body" name="body" required></textarea>
+          <button>Submit</button>
+        </form>
+        
+      </div>
+    </p>
+    <%- include("./partials/nav.ejs") %> <%- include("./partials/footer.ejs") %>
+  </body>
+</html>
